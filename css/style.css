@@ -108,6 +108,10 @@ background: url('../images/placement-inner-bg.png') no-repeat;
 background-size: cover;
 background-position: center;    
 }
+.whatsapp-app 
+{
+display: block;    
+}
 /* media query */
 @media only screen and (min-width:320px) and (max-width:580px)
 {
@@ -179,8 +183,13 @@ margin-top: 10% !important;
 width: 100% !important;
 height: auto !important;
 background: url('../images/placement-inner-bg.png') no-repeat;
-background-size: 100% 450px;
+background-size: cover;
 background-position: center;    
+}
+
+.whatsapp-app 
+{
+display:none;    
 }
 }
 @media only screen and (min-width:581px) and (max-width:767px)
